@@ -11,18 +11,18 @@
 </head>
 
 <body>
-    <fieldset>
-        <legend>Cadastro Geral</legend>
-        
-        <div class="bloco_cg-lc">
-            <div class="bloco_cg">
+    <form action="" method="get">
+        <fieldset>
+            <legend>Cadastro Geral</legend>
 
+            <div class="bloco_cg-lc">
+                <div class="bloco_cg">
 
-                <fieldset>
-                    <legend>Dados Pessoais</legend>
-                    <form action="" method="get">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+
                         <label for="username_">Nome Completo</label><br>
-                        <input type="text" name="username_" id="username_" required>
+                        <input type="text" name="username_" id="username_" placeholder="Digite seu nome..." required>
                         <br><br>
                         <label for="profissoes">Sua Profissão</label><br>
                         <select name="profissoes" id="profissoes">
@@ -33,32 +33,31 @@
                             <option value="professor">Professor</option>
                         </select>
 
-                    </form>
-                </fieldset>
-            </div>
+                    </fieldset>
+                </div>
 
-            <div class="bloco_lc">
-                <fieldset>
-                    <legend>Localização</legend>
-                    <form action="" method="get">
+                <div class="bloco_lc">
+                    <fieldset>
+                        <legend>Localização</legend>
+
 
                         <label for="email_">E-mail</label><br>
-                        <input type="email" name="email_" id="email_" required>
+                        <input type="email" name="email_" id="email_" placeholder="exemplo@site.com" required>
                         <br><br>
                         <label for="rua_">Rua</label><br>
-                        <input type="text" name="rua_" id="rua_">
+                        <input type="text" name="rua_" id="rua_" placeholder="Digite sua rua...">
 
-                    </form>
-                </fieldset>
+
+                    </fieldset>
+                </div>
             </div>
-        </div>
 
-        <div class="bloco_faixae">
-            <fieldset>
-                <legend>Faixa Etária</legend>
+            <div class="bloco_faixae">
+                <fieldset>
+                    <legend>Faixa Etária</legend>
 
 
-                <form action="" method="get">
+
                     <input type="radio" name="fx" id="faixa_1" checked>
                     <label for="faixa_1">até 20 anos</label><br>
                     <input type="radio" name="fx" id="faixa_2">
@@ -71,18 +70,18 @@
                     <label for="faixa_5">de 50 até 60 anos</label><br>
                     <input type="radio" name="fx" id="faixa_6">
                     <label for="faixa_6">mais de 60 anos</label>
-                </form>
 
-            </fieldset>
-        </div>
 
-        <div class="bloco_es">
-            <fieldset>
-                <legend>Esportes que Pratica</legend>
+                </fieldset>
+            </div>
 
-                <form action="" method="get">
+            <div class="bloco_es">
+                <fieldset>
+                    <legend>Esportes que Pratica</legend>
 
-                    <input type="checkbox" name="esportes" id="e1" value="futebol" checked>
+
+
+                    <input type="checkbox" name="esportes" id="e1" value="futebol">
                     <label for="e1">Futebol de Campo</label><br>
                     <input type="checkbox" name="esportes" id="e2" value="futebolSalao">
                     <label for="e2">Futebol de Salão</label><br>
@@ -95,28 +94,34 @@
                     <input type="checkbox" name="esportes" id="e6" value="natacao">
                     <label for="e6">Natação</label>
 
-                </form>
-            </fieldset>
-        </div>
 
-        <div class="bloco_comment">
-            <fieldset>
-                <legend>Comentário</legend>
+                </fieldset>
+            </div>
 
-                <form action="" method="get">
+            <div class="bloco_comment">
+                <fieldset>
+                    <legend>Comentário</legend>
+
+
 
                     <label for="comentario_area">Sua Mensagem</label><br>
                     <textarea name="comentario_area" id="comentario_area" cols="30" rows="10"></textarea>
 
-                </form>
 
 
-            </fieldset>
+
+                </fieldset>
+            </div>
+
+        </fieldset>
+
+        <div class="btn">
+
+            <input type="button" value="Enviar" id="btn_1" name="btn_2">
+            <input type="reset" value="Apagar" id="btn_2" name="btn_2">
+
         </div>
-
-    </fieldset>
-
-
+    </form>
 
 </body>
 
