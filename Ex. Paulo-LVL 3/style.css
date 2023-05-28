@@ -1,0 +1,35 @@
+label {
+    padding-bottom: 5px;
+}
+
+legend{
+    border: 1px solid green;
+    padding: 5px;
+}
+
+.bloco_cg-lc{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bloco_cg{
+    display: flex;
+    padding: 20px;
+}
+
+.bloco_lc{
+    display: flex;
+    padding: 20px;
+}
+
+.bloco_es{
+    padding: 10px;
+}
+
+.bloco_faixae{
+    padding: 10px;
+}
+
+.bloco_comments{
+    padding: 10px;
+}

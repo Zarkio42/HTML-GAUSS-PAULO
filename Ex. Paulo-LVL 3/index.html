@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Level 3</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Cadastro Geral</legend>
+        
+        <div class="bloco_cg-lc">
+            <div class="bloco_cg">
+
+
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <form action="" method="get">
+                        <label for="username_">Nome Completo</label><br>
+                        <input type="text" name="username_" id="username_" required>
+                        <br><br>
+                        <label for="profissoes">Sua Profissão</label><br>
+                        <select name="profissoes" id="profissoes">
+                            <option value="--" selected>--</option>
+                            <option value="medico">Médico</option>
+                            <option value="programador">Programador</option>
+                            <option value="nutricionista">Nutricionista</option>
+                            <option value="professor">Professor</option>
+                        </select>
+
+                    </form>
+                </fieldset>
+            </div>
+
+            <div class="bloco_lc">
+                <fieldset>
+                    <legend>Localização</legend>
+                    <form action="" method="get">
+
+                        <label for="email_">E-mail</label><br>
+                        <input type="email" name="email_" id="email_" required>
+                        <br><br>
+                        <label for="rua_">Rua</label><br>
+                        <input type="text" name="rua_" id="rua_">
+
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="bloco_faixae">
+            <fieldset>
+                <legend>Faixa Etária</legend>
+
+
+                <form action="" method="get">
+                    <input type="radio" name="fx" id="faixa_1" checked>
+                    <label for="faixa_1">até 20 anos</label><br>
+                    <input type="radio" name="fx" id="faixa_2">
+                    <label for="faixa_2">de 20 até 30 anos</label><br>
+                    <input type="radio" name="fx" id="faixa_3">
+                    <label for="faixa_3">de 30 até 40 anos</label><br>
+                    <input type="radio" name="fx" id="faixa_4">
+                    <label for="faixa_4">de 40 até 50 anos</label><br>
+                    <input type="radio" name="fx" id="faixa_5">
+                    <label for="faixa_5">de 50 até 60 anos</label><br>
+                    <input type="radio" name="fx" id="faixa_6">
+                    <label for="faixa_6">mais de 60 anos</label>
+                </form>
+
+            </fieldset>
+        </div>
+
+        <div class="bloco_es">
+            <fieldset>
+                <legend>Esportes que Pratica</legend>
+
+                <form action="" method="get">
+
+                    <input type="checkbox" name="esportes" id="e1" value="futebol" checked>
+                    <label for="e1">Futebol de Campo</label><br>
+                    <input type="checkbox" name="esportes" id="e2" value="futebolSalao">
+                    <label for="e2">Futebol de Salão</label><br>
+                    <input type="checkbox" name="esportes" id="e3" value="basquete">
+                    <label for="e3">Basquete</label><br>
+                    <input type="checkbox" name="esportes" id="e4" value="volei">
+                    <label for="e4">Vôlei</label><br>
+                    <input type="checkbox" name="esportes" id="e5" value="crossfit">
+                    <label for="e5">CrossFit</label><br>
+                    <input type="checkbox" name="esportes" id="e6" value="natacao">
+                    <label for="e6">Natação</label>
+
+                </form>
+            </fieldset>
+        </div>
+
+        <div class="bloco_comment">
+            <fieldset>
+                <legend>Comentário</legend>
+
+                <form action="" method="get">
+
+                    <label for="comentario_area">Sua Mensagem</label><br>
+                    <textarea name="comentario_area" id="comentario_area" cols="30" rows="10"></textarea>
+
+                </form>
+
+
+            </fieldset>
+        </div>
+
+    </fieldset>
+
+
+
+</body>
+
+</html>
