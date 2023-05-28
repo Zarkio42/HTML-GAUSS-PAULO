@@ -1,3 +1,3 @@
-# Aula de comitar repositorios locais para remotos
+# Todos os projetos propostos na aula do Paulo
 
-Dia 12/03
+HTML - CSS
